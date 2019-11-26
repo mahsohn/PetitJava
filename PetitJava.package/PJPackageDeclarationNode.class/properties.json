@@ -6,7 +6,8 @@
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"nameNode"
+		"nameNode",
+		"annotations"
 	],
 	"name" : "PJPackageDeclarationNode",
 	"type" : "normal"

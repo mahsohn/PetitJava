@@ -8,6 +8,8 @@
 	"instvars" : [
 		"nameNode",
 		"isStatic",
+		"isAsterisk",
+		"qualifiers",
 		"isOnDemand"
 	],
 	"name" : "PJImportDeclarationNode",

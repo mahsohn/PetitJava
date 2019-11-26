@@ -1,4 +1,4 @@
 grammar
 packageDeclaration 
 
-	^ (self tokenFor: 'package') , qualifiedName , (self tokenFor: ';')
+	^ annotations optional, (self tokenFor: 'package') , qualifiedName , (self tokenFor: ';')

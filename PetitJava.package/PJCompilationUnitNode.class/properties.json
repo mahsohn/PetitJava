@@ -5,7 +5,12 @@
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
-	"instvars" : [ ],
+	"instvars" : [
+		"packageDeclaration",
+		"imports",
+		"types",
+		"modules"
+	],
 	"name" : "PJCompilationUnitNode",
 	"type" : "normal"
 }

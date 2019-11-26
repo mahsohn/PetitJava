@@ -1,4 +1,4 @@
 grammar
 compilationUnit 
 
-	^ (annotations optional, packageDeclaration) optional , importDeclaration star , typeDeclaration plus
+	^ packageDeclaration optional , importDeclaration star , typeDeclaration plus
