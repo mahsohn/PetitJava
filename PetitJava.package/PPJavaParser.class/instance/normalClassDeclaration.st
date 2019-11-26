@@ -1,10 +1,12 @@
 grammar-classes
 normalClassDeclaration
 	^ super normalClassDeclaration ==> [ :nodes | 
-		PJTypeDeclarationNode new
+		PJClassOrInterfaceDeclarationNode new
 			modifiers: nodes first;
-			simpleName: nodes third name;
-			methodDeclarations: nodes seventh second;
-			"TODO"
+			name: nodes third name;
+			typeParameters: nodes fourth;
+			extendedTypes: nodes fifth second;
+			isInterface: nodes sixth notNil;
+			members: nodes seventh second;
 			yourself.
 	]

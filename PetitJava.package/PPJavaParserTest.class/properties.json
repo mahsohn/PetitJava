@@ -1,13 +1,15 @@
 {
 	"commentStamp" : "",
-	"super" : "PJAbstractTypeDeclarationNode",
-	"category" : "PetitJava-AST",
+	"super" : "TestCase",
+	"category" : "PetitJava-Test",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"members"
+		"parser",
+		"result",
+		"node"
 	],
-	"name" : "PJTypeDeclarationNode",
+	"name" : "PPJavaParserTest",
 	"type" : "normal"
 }

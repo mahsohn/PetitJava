@@ -1,13 +1,15 @@
 {
-	"commentStamp" : "",
+	"commentStamp" : "<historical>",
 	"super" : "PJBodyDeclarationNode",
 	"category" : "PetitJava-AST",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"name"
+		"name",
+		"arguments",
+		"classBody"
 	],
-	"name" : "PJAbstractTypeDeclarationNode",
+	"name" : "PJEnumConstantDeclarationNode",
 	"type" : "normal"
 }
