@@ -1,7 +1,7 @@
 grammar-classes-interface
 interfaceBodyDeclaration 
 
-	^ interfaceFieldDeclaration
+	^ fieldDeclaration
 	/ interfaceMethodDeclaration
 	/ interfaceDeclaration 
 	/ classDeclaration 

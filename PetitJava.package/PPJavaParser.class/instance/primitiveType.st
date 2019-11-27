@@ -1,4 +1,4 @@
 grammar-literals-string
 primitiveType 
 
- ^super primitiveType ==> [:token | PJPrimitiveTypeNode type: token inputValue]
+ ^super primitiveType ==> [:token | PJPrimitiveTypeNode new type: token inputValue]

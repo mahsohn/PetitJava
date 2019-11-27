@@ -1,13 +1,15 @@
 {
 	"commentStamp" : "",
-	"super" : "PJASTNode",
+	"super" : "PJReferenceTypeNode",
 	"category" : "PetitJava-AST",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"annotation"
+		"scope",
+		"name",
+		"typeArguments"
 	],
-	"name" : "PJTypeNode",
+	"name" : "PJClassOrInterfaceTypeNode",
 	"type" : "normal"
 }

@@ -17,8 +17,8 @@ enumDeclaration
 		].
 		nodes fifth fourth ifNotNil: [ members := nodes fifth fourth second asArray ].
 		PJEnumDeclarationNode new
-			annotations: (nodes first select: [ :n | n class = PJAnnotationNode ]);
-			modifiers: (nodes first select: [ :n | n class = PJModifierNode ]);
+			annotations: nodes first first;
+			modifiers: nodes first second;
 			name: nodes third name;
 			implementedTypes: implementedTypes;
 			entries: entries;

@@ -2,7 +2,7 @@ grammar-annotations
 annotationTypeElementDeclaration
 	
 	^ annotationMethodDeclaration
-	/ interfaceFieldDeclaration 
+	/ fieldDeclaration 
 	/ normalClassDeclaration
 	/ enumDeclaration 
 	/ annotationTypeDeclaration 
